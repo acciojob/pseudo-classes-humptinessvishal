@@ -1,1 +1,23 @@
 /*  your css code here. If applicable */
+*{
+	background-color: skyblue;
+}
+.para1{
+	background-color: black;
+	color: white;
+}
+.para2{
+	color:red;
+}
+li:nth-of-type(2n){
+	background-color:slategray;
+}
+li:first-child{
+	background-color: white;
+}
+li:nth-of-type(3n){
+	background-color: pink;
+}
+li:last-child{
+	background-color: white;
+}
